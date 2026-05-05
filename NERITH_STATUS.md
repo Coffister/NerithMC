@@ -11,7 +11,7 @@
 | NerithLobby | ❌ | ❌ | ❌ | Lobby + minigames |
 | NerithQuests | ✅ | ❌ | ❌ | Daily + milestones |
 | NerithHUD | ❌ | ❌ | ❌ | Scoreboard, HUD |
-| NerithGUI | ❌ | ❌ | ❌ | GUI engine, editor |
+| NerithGUI | ✅ | ❌ | ❌ | GUI engine, editor |
 
 Legend: ✅ done | 🔄 in progress | ❌ not started
 
@@ -32,13 +32,14 @@ Legend: ✅ done | 🔄 in progress | ❌ not started
 | NERITHCORE.md | ✅ |
 | NERITHNPC.md | ✅ |
 | NERITHQUESTS.md | ✅ |
-| NERITHGUI.md | ❌ |
+| NERITHGUI.md | ✅ |
 | NERITHECONOMY.md | ❌ |
 | NERITHLOBBY.md | ❌ |
 | NERITHHUD.md | ❌ |
 | Lore document | ❌ |
 
 ## Last 5 changes
+- 2026-05-05 — NERITHGUI spec + GUI štruktúra island, docs sync
 - 2026-05-05 — Init commit: project structure, docs, NerithCore source
 
 ## Known issues

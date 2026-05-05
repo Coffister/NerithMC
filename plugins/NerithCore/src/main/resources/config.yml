@@ -1,0 +1,184 @@
+database:
+  host: localhost
+  port: 3306
+  name: nerith
+  username: nerith_user
+  password: nerith123
+  pool-size: 10
+
+island:
+  max-members: 4
+  spacing: 1000
+  void-y-level: 0
+  fragment-islands:
+    min-count: 3
+    max-count: 6
+    min-radius: 300
+    max-radius: 400
+
+starter-kit:
+  enabled: true
+  items:
+    - STONE_PICKAXE:1
+    - TORCH:1
+    - COOKED_BEEF:3
+
+phases:
+  1:
+    name: "The Void Fragment"
+    blocks-required: 0
+    lore-line: "You have found the fragment. It is cold. It is alone."
+    reward-kit: []
+    phase-up-particle: SMOKE
+    block-pool:
+      STONE:
+        weight: 40
+      DIRT:
+        weight: 20
+      GRAVEL:
+        weight: 10
+      COAL_ORE:
+        weight: 5
+      IRON_ORE:
+        weight: 3
+      DIAMOND_ORE:
+        weight: 1
+        special: TREASURE_BLOCK
+  2:
+    name: "The Overgrowth"
+    blocks-required: 500
+    lore-line: "Life finds a way. The fragment stirs."
+    reward-kit:
+      - OAK_SAPLING:4
+    phase-up-particle: HAPPY_VILLAGER
+    block-pool:
+      GRASS_BLOCK:
+        weight: 30
+      OAK_LOG:
+        weight: 20
+      DIRT:
+        weight: 15
+      OAK_LEAVES:
+        weight: 10
+      APPLE:
+        weight: 5
+      ZOMBIE:
+        weight: 3
+        special: BOSS_SPAWN
+  3:
+    name: "The Deep Roots"
+    blocks-required: 1500
+    lore-line: "The roots reach down into nothing. Something grows."
+    reward-kit:
+      - IRON_INGOT:8
+    phase-up-particle: SMOKE
+    block-pool:
+      MOSSY_COBBLESTONE:
+        weight: 30
+      COBBLESTONE:
+        weight: 20
+      SAND:
+        weight: 15
+      IRON_ORE:
+        weight: 10
+      GOLD_ORE:
+        weight: 5
+      LORE_FRAGMENT:
+        weight: 2
+        special: LORE_BLOCK
+  4:
+    name: "The Awakening"
+    blocks-required: 3500
+    lore-line: "The city remembers. It calls to you."
+    reward-kit:
+      - DIAMOND:2
+      - GOLDEN_APPLE:1
+    phase-up-particle: SPELL_WITCH
+    block-pool:
+      SAND:
+        weight: 25
+      SANDSTONE:
+        weight: 20
+      GOLD_ORE:
+        weight: 10
+      DIAMOND_ORE:
+        weight: 5
+      CHEST:
+        weight: 3
+        special: TREASURE_BLOCK
+  5:
+    name: "The Forge"
+    blocks-required: 7500
+    lore-line: "Fire shaped this world. Fire will reshape you."
+    reward-kit:
+      - BLAZE_ROD:4
+      - DIAMOND:4
+    phase-up-particle: FLAME
+    block-pool:
+      NETHERRACK:
+        weight: 30
+      NETHER_BRICK:
+        weight: 20
+      QUARTZ_ORE:
+        weight: 10
+      MAGMA_BLOCK:
+        weight: 5
+      BLAZE_SPAWN:
+        weight: 3
+        special: BOSS_SPAWN
+  6:
+    name: "The Ascent"
+    blocks-required: 15000
+    lore-line: "You rise above the void. The city is within reach."
+    reward-kit:
+      - ELYTRA:1
+      - DIAMOND:8
+    phase-up-particle: PORTAL
+    block-pool:
+      PURPUR_BLOCK:
+        weight: 25
+      END_STONE:
+        weight: 20
+      CHORUS_FRUIT:
+        weight: 10
+      ENDER_PEARL:
+        weight: 8
+      SHULKER_LORE:
+        weight: 2
+        special: LORE_BLOCK
+  7:
+    name: "The Rebirth"
+    blocks-required: 30000
+    lore-line: "Nerith rises again. You have rebuilt what was lost."
+    reward-kit:
+      - NETHER_STAR:1
+      - DIAMOND_BLOCK:3
+    phase-up-particle: END_ROD
+    block-pool:
+      END_STONE_BRICKS:
+        weight: 20
+      OBSIDIAN:
+        weight: 15
+      ANCIENT_DEBRIS:
+        weight: 5
+      DRAGON_EGG:
+        weight: 1
+        special: TREASURE_BLOCK
+
+reset-penalties:
+  1: 0
+  2: 5
+  3: 10
+  4: 20
+  5: 35
+  6: 50
+  7: 75
+
+web-api:
+  enabled: true
+  port: 8080
+
+leaderboard:
+  weekly-settle-day: SUNDAY
+  weekly-settle-time: "20:00"
+  monthly-settle-day: 1

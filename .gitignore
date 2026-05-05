@@ -1,0 +1,25 @@
+# Maven build output
+plugins/*/target/
+plugins/*/*.class
+
+# Server runtime files — tracked selectively
+server/logs/
+server/cache/
+server/libraries/
+server/versions/
+server/world/
+server/world_nether/
+server/world_the_end/
+server/oneblock_world/
+server/hlavni_uzel/
+server/crash-reports/
+server/eula.txt
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

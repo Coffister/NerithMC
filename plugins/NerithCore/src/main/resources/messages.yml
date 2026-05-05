@@ -1,0 +1,81 @@
+# NerithCore messages — English default
+# Color codes: & prefix (e.g. &6 for gold, &c for red, &a for green)
+
+prefix: "&8[&6Nerith&8] &r"
+
+island:
+  created: "&aYour island has been created! Teleporting..."
+  create-error: "&cFailed to create island. Please contact an admin."
+  no-island: "&cYou don't have an island. Use &e/is create&c to make one."
+  already-has-island: "&cYou already have an island."
+  not-owner: "&cOnly the island owner can do that."
+  world-not-found: "&cYour island world could not be found. Contact an admin."
+  spawn-set: "&aIsland spawn point updated."
+  owner-cannot-leave: "&cYou cannot leave your own island. Use &e/is reset&c or &e/is transfer&c."
+  reset:
+    member-notified: "&eThe island owner has reset the island. You have been removed."
+    error: "&cReset failed. Please try again."
+  perm:
+    no-break: "&cYou cannot break blocks on this island."
+    no-place: "&cYou cannot place blocks on this island."
+    no-interact: "&cYou cannot interact with objects on this island."
+    no-chest: "&cYou cannot open chests on this island."
+    no-kill-mobs: "&cYou cannot kill mobs on this island."
+
+coop:
+  not-coop-island: "&cThis is not a coop island."
+  island-full: "&cThis island is full."
+  target-has-island: "&cThat player already has an island."
+  target-no-island: "&cThat player doesn't have an island."
+  not-member: "&cThat player is not a member of your island."
+  no-pending: "&cYou have no pending invites or requests."
+  invite-sent: "&aInvite sent to &e{player}&a."
+  invite-received: "&e{owner} &ahas invited you to their island! Use &e/is accept&a or &e/is deny&a."
+  request-sent: "&aJoin request sent to &e{player}&a."
+  request-received: "&e{player} &awants to join your island! Use &e/is accept&a or &e/is deny&a."
+  invite-denied: "&eInvite declined."
+  request-denied: "&eRequest declined."
+  joined: "&aYou joined the island!"
+  member-joined: "&e{player} &ajoined your island!"
+  kicked: "&cYou were kicked from the island."
+  kicked-success: "&e{player} &chas been kicked."
+  left: "&aYou left the island."
+  transfer-done: "&aOwnership transferred to &e{player}&a."
+  transfer-received: "&aYou are now the island owner!"
+
+kit:
+  given: "&aStarter kit given!"
+
+oneblock:
+  frozen: "&cThe OneBlock is transforming... wait a moment."
+
+void:
+  death: "&cYou fell into the void. All items lost."
+
+powerup:
+  void-shield:
+    activated: "&a&lVoid Shield activated! You have been saved!"
+  fragment-saver:
+    activated: "&e&lFragment Saver activated! 70% of your items were saved."
+
+phase:
+  up:
+    chat: "&6&l✦ PHASE UP! &e{name} &6— Phase {phase} unlocked!"
+
+special:
+  treasure: "&6&l✦ TREASURE! &eRare loot has appeared!"
+  boss-spawn: "&c&l⚠ BOSS SPAWN! &cA powerful enemy has appeared!"
+  lore-block: "&5&oThe fragment whispers... something stirs in the void."
+
+command:
+  unknown: "&cUnknown command. Use &e/is&c for help."
+  usage:
+    invite: "&eUsage: /is invite <player>"
+    join: "&eUsage: /is join <player>"
+    kick: "&eUsage: /is kick <player>"
+    transfer: "&eUsage: /is transfer <player>"
+
+player:
+  not-found: "&cPlayer not found or not online."
+
+no-permission: "&cYou don't have permission to do that."

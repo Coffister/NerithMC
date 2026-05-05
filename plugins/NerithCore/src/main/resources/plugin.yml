@@ -1,0 +1,28 @@
+name: NerithCore
+version: 1.0.0
+main: gg.nerith.core.NerithCore
+api-version: '1.21'
+description: Core OneBlock engine for Nerith server
+authors: [Nerith Team]
+depend: [Vault, PlaceholderAPI]
+softdepend: [FancyNPCs]
+commands:
+  island:
+    description: Island management
+    aliases: [is]
+    usage: /is
+  islandadmin:
+    description: Admin island management
+    aliases: [isa]
+    usage: /isa
+    permission: nerith.admin
+permissions:
+  nerith.admin:
+    description: Access to /isa commands
+    default: op
+  nerith.island.create:
+    description: Create an island
+    default: true
+  nerith.island.reset:
+    description: Reset own island
+    default: true

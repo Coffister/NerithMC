@@ -1,0 +1,8 @@
+# NerithCore messages — Slovak (placeholder — fill later)
+# Slovenská lokalizácia — doplniť neskôr
+
+prefix: "&8[&6Nerith&8] &r"
+
+island:
+  created: "&aVaš ostrov bol vytvorený! Teleportovanie..."
+  no-island: "&cNemáte ostrov. Použite &e/is create&c."

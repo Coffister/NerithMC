@@ -1,5 +1,5 @@
 # Nerith — Project Status
-> Auto-updated by Claude Code. Last: 2026-05-06
+> Auto-updated by Claude Code. Last: 2026-05-06 (2)
 
 ## Plugins
 
@@ -8,7 +8,7 @@
 | NerithCore | ✅ | 🔄 | ❌ | OneBlock engine, island GUI, scoreboard, PAPI expansion — live ✅ |
 | NerithNPC | ✅ | ❌ | ❌ | Dialogue + quests |
 | NerithEconomy | ✅ | ✅ | ❌ | Fragments, Echo, Vault, shops, auction house — live ✅ |
-| NerithLobby | ❌ | ❌ | ❌ | Lobby + minigames |
+| NerithLobby | ✅ | ✅ | ❌ | Lobby routing, world rules, boards, 2 mini-games — live ✅ |
 | NerithQuests | ✅ | ❌ | ❌ | Daily + milestones |
 | NerithHUD | ✅ | ✅ | ❌ | Scoreboard, actionbar, bossbar — live ✅ |
 | NerithGUI | ✅ | ❌ | ❌ | GUI engine, editor |
